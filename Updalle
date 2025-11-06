@@ -1,0 +1,30 @@
+SmartNotes/
+│
+├─ app/
+│  ├─ src/main/java/com/example/smartnotes/
+│  │   ├─ MainActivity.kt
+│  │   ├─ SplashActivity.kt
+│  │   ├─ data/
+│  │   │   ├─ Note.kt
+│  │   │   ├─ NoteDao.kt
+│  │   │   ├─ AppDatabase.kt
+│  │   │   └─ NoteRepository.kt
+│  │   ├─ ui/
+│  │   │   ├─ Theme.kt
+│  │   │   ├─ NotesListScreen.kt
+│  │   │   ├─ AddNoteScreen.kt
+│  │   │   └─ LoginScreen.kt
+│  │   ├─ utils/
+│  │   │   └─ PDFExporter.kt
+│  │   └─ viewmodel/
+│  │       └─ NoteViewModel.kt
+│  ├─ res/
+│  │   ├─ drawable/splash_screen.xml
+│  │   ├─ mipmap-anydpi/ic_launcher.png  ← dummy icon
+│  │   ├─ values/colors.xml
+│  │   ├─ values/themes.xml
+│  │   └─ xml/file_paths.xml
+│  ├─ AndroidManifest.xml
+│  └─ build.gradle (app)
+├─ build.gradle (project)
+└─ settings.gradle
